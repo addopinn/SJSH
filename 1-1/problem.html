@@ -1,0 +1,36 @@
+<p>1. (점과 직선)</p>
+<script src="/data.json" type="text/javascript";></script>
+<a href = "https://github.com/addopinn/-/blob/main/1-1.jpeg?raw=true">
+    <img src="https://github.com/addopinn/-/blob/main/1-1.jpeg?raw=true" alt ="문제 로딩 오류">
+</a>
+<title>[개념확인] 1번문제</title>
+<body>
+    정답:<input id='name' onchange='printName()'/>
+    <div id='result'></div>
+    
+    <script> function printName()  {
+        const name = document.getElementById('name').value;
+        document.getElementById("result").innerText = name;
+        let data = JSON.parse(JSON.stringify(data));
+        console.log(data)
+      }</script>
+</body>
+<style>
+    a{
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+    }
+    body{
+        margin-top: 100px;
+        margin: auto;
+        display: block;
+    }
+    p{
+        font-size: 30px;
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+        margin-left: 30px;
+    }
+</style>
